@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Câu 1: Iframe</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3546.8958251030244!2d106.69272717451716!3d10.776999459184259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f385570472f%3A0x1787491df0ed8d6a!2zRGluaCDEkOG7mWMgTOG6rXA!5e1!3m2!1svi!2s!4v1748261944718!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <h2>Cau 2: form</h2>
+    <form action="https://www.w3schools.com/action_page.php" method="post" target="_blank">
+        <label for="name"  >Họ Tên:</label>
+        <br>
+        <input name="name" id="name" type="text" placeholder="Ví Dụ:huynhtanphong">
+        <br>
+        <label for="email" >Email:</label>
+        <br>
+        <input name="email" id="email" type="email" placeholder="phongh1@gmail.com">
+        <br>
+        <label for="password">Mật Khẩu</label>
+        <br>
+        <input name="password" id="password" type="password" >
+        <br>
+        <button>submit</button>
+    </form>
+    <h2>tạo form tìm kiểm</h2>
+    <form action="https://www.w3schools.com/action_page.php" method="post" target="_blank">
+        <input name="search" id="search" type="search" placeholder="Nhập nội dung tìm kiếm" required>
+        <button>tìm kiếm</button>
+    </form>
+    <h2>Cau 3: ôn tập form</h2>
+    <form action="https://www.w3schools.com/action_page.php" target="_blank" method="post">
+        <p><strong>Yeu cau:</strong> ve lai cac the duoi day:</p>
+        <p><strong>input tag:</strong></p>
+
+        <label for="text">kieu text</label>
+        <br><br>
+        <input name="text" id="text" type="text" placeholder="Nhap ho ten...">
+        <br><br>
+        <label for="email2">kieu email</label>
+        <br><br>
+        <input name="email2" id="email2" type="email" placeholder="nhap email">
+        <br><br>
+        <label for="password2">kieu password</label>
+        <br><br>
+        <input name="password2" id="password2" type="password">
+        <br><br>
+        <label for="num">kieu num</label>
+        <br><br>
+        <input name="num" id="num" type="number">
+        <br><br>
+        <label for="date">kieu date</label>
+        <br><br>
+        <input name="date" id="date" type="date">
+        <br><br>
+        <label for="time">kieu time</label>
+        <br><br>
+        <input name="time" id="time" type="time">
+        <br><br>
+        <label for="file">kieu file</label>
+        <br><br>
+        <input name="file" id="file" type="file">
+        <br><br>
+        <input name="checkbox1" id="Nam" type="checkbox" value="Nam">
+        <label for="Nam">Nam</label>
+        <br><br>
+        <input name="checkbox1" id="Nu" type="checkbox" value="Nu">
+        <label for="Nu">Nu</label>
+        <br><br>
+        <input name="checkbox1" id="khac" type="checkbox" value="Khac">
+        <label for="khac">Khac</label>
+        <br><br>
+        <input name="radio" id="Nam2" type="radio" value="Nam">
+        <label for="Nam2">Nam</label>
+        <br><br>
+        <input name="radio" id="Nu2" type="radio" value="Nu">
+        <label for="Nu2">Nu</label>
+        <br><br>
+        <input name="radio" id="Khac2" type="radio" value="Khac">
+        <label for="Khac2">Khac</label>
+        <br><br>
+        <label for="range">kieu range</label>
+        <input name="range" id="range" type="range" min="0" max="100" step="1">
+        <br><br>
+        <label for="color">kieu color</label>
+        <input name="color" id="color" type="color">
+        <br><br>
+        <select name="Quan" id="Quan">
+            <option value="QuanGhin">Quan ghin</option>
+            <option value="QuanBo">Quan Bo</option>
+            <option value="QuanCut">Quan Cut</option>
+        </select>
+        <p><strong>the textarea (cols=30,rows=10)</strong></p>
+        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+        <button>submit</button> 
+
+    </form>
+
+</body>
+</html>
